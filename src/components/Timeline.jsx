@@ -1,7 +1,16 @@
 import React from 'react'
+import {
+    Timeline,
+    TimelineItem,
+    TimelineConnector,
+    TimelineHeader,
+    TimelineIcon,
+    TimelineBody,
+    Typography,
+  } from "@material-tailwind/react";
 import Line from '../elements/Line'
 
-const Timeline = () => {
+const TimeLine = () => {
   return (
     <div className='bg-color1 text-white' id='timeline'>
         <div className='lg:px-20 py-10'>
@@ -9,7 +18,7 @@ const Timeline = () => {
             <p className='hidden md:block md:text-sm font-normal text-center font-montserrat mt-[16px] lg:leading-loose lg:pe-12'>Here is the breakdown of the time we anticipate <br /> using for the upcoming event.</p>
             <p className='text-xs md:hidden font-normal text-center font-montserrat mt-[16px] leading-normal lg:pe-12'>Here is the breakdown of the time we anticipate using for the upcoming event.</p>
 
-            <div className="container my-5">
+            <div className="hidden md:block container my-5">
                 <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
                     <div className="flex flex-col md:contents">
                         <div className="col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto">
@@ -120,10 +129,108 @@ const Timeline = () => {
                     </div>  
                 </div>
             </div>
+
+            <div className="md:hidden my-5 font-montserrat text-xs">
+                <Timeline>
+                    <TimelineItem className='mb-6'>
+                        <TimelineConnector className='text-color3' />
+                        <TimelineBody className="text-xs pt-6">
+                            <Typography variant="small" color="gary" className="font-normal text-white">
+                            <span className='text-color3 font-bold'>Hackathon Announcement <br /> </span>
+                            The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register
+                            </Typography>
+                        </TimelineBody>
+                        <TimelineHeader className="-my-3">
+                            <TimelineIcon className='bg-color3 text-xs'>1</TimelineIcon>
+                            <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
+                            November 18, 2023
+                            </Typography>
+                        </TimelineHeader>
+                    </TimelineItem>
+
+                    <TimelineItem className='mb-6'>
+                        <TimelineConnector className='text-color3' />
+                        <TimelineBody className="text-xs pt-6">
+                            <Typography variant="small" color="gary" className="font-normal text-white">
+                            <span className='text-color3 font-bold'>Teams Registration begins <br /> </span>
+                            Interested teams can now show their interest in the getlinked tech hackathon 1.0 2023 by proceeding to register
+                            </Typography>
+                        </TimelineBody>
+                        <TimelineHeader className="-my-3">
+                            <TimelineIcon className='bg-color3 text-xs'>2</TimelineIcon>
+                            <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
+                            November 18, 2023
+                            </Typography>
+                        </TimelineHeader>
+                    </TimelineItem>
+
+                    <TimelineItem className='mb-6'>
+                        <TimelineConnector className='text-color3' />
+                        <TimelineBody className="text-xs pt-6">
+                            <Typography variant="small" color="gary" className="font-normal text-white">
+                            <span className='text-color3 font-bold'>Teams Registration ends<br /> </span>
+                            Interested Participants are no longer Allowed to register
+                            </Typography>
+                        </TimelineBody>
+                        <TimelineHeader className="-my-3">
+                            <TimelineIcon className='bg-color3 text-xs'>3</TimelineIcon>
+                            <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
+                            November 18, 2023
+                            </Typography>
+                        </TimelineHeader>
+                    </TimelineItem>
+
+                    <TimelineItem className='mb-6'>
+                        <TimelineConnector className='text-color3' />
+                        <TimelineBody className="text-xs pt-6">
+                            <Typography variant="small" color="gary" className="font-normal text-white">
+                            <span className='text-color3 font-bold'>Interested Participants are no longer Allowed to register<br /> </span>
+                            All teams whom idea has been accepted into getlinked tech hackathon 1.0 2023 are formally announced
+                            </Typography>
+                        </TimelineBody>
+                        <TimelineHeader className="-my-3">
+                            <TimelineIcon className='bg-color3 text-xs'>4</TimelineIcon>
+                            <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
+                            November 18, 2023
+                            </Typography>
+                        </TimelineHeader>
+                    </TimelineItem>
+                    <TimelineItem className='mb-6'>
+                        <TimelineConnector className='text-color3' />
+                        <TimelineBody className="text-xs pt-6">
+                            <Typography variant="small" color="gary" className="font-normal text-white">
+                            <span className='text-color3 font-bold'>Getlinked Hackathon 1.0 Offically Begins<br /> </span>
+                            Accepted teams can now proceed to build their ground breaking skill driven solutions
+                            </Typography>
+                        </TimelineBody>
+                        <TimelineHeader className="-my-3">
+                            <TimelineIcon className='bg-color3 text-xs'>5</TimelineIcon>
+                            <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
+                            November 18, 2023
+                            </Typography>
+                        </TimelineHeader>
+                    </TimelineItem>
+                    <TimelineItem className='mb-6'>
+                        <TimelineConnector className='text-color3' />
+                        <TimelineBody className="text-xs pt-6">
+                            <Typography variant="small" color="gary" className="font-normal text-white">
+                            <span className='text-color3 font-bold'>Demo Day<br /> </span>
+                            Teams get the opportunity to pitch their projects to judges. The winner of the hackathon will also be announced on this day
+                            </Typography>
+                        </TimelineBody>
+                        <TimelineHeader className="-my-3">
+                            <TimelineIcon className='bg-color3 text-xs'>6</TimelineIcon>
+                            <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
+                            November 18, 2023
+                            </Typography>
+                        </TimelineHeader>
+                    </TimelineItem>
+                </Timeline>
+            </div>
         </div>
         <Line />
     </div>
   )
 }
 
-export default Timeline
+export default TimeLine

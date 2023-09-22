@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Attributes from '../components/Attributes'
 import FAQs from '../components/FAQs'
-import Timeline from '../components/Timeline'
+import TimeLine from '../components/Timeline'
 import Prizes from '../components/Prizes'
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <About />
       <Attributes />
       <FAQs />
-      <Timeline />
+      <TimeLine />
       <Prizes />
     </Layout>
   )

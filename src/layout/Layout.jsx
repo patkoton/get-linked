@@ -124,7 +124,7 @@ export default function Layout(props) {
         </>
       )}
     </Disclosure>
-    <div className='bg-current'>
+    <div className='bg-color1'>
         <div className='max-w-7xl min-h-screen px-5 md:px-10 lg:px-0'>
           {props.children}
         </div>
