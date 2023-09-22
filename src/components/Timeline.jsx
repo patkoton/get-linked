@@ -31,7 +31,7 @@ const TimeLine = () => {
                             <div className="h-full w-6 flex items-center justify-center">
                                 <div className="h-full w-1 bg-color3 pointer-events-none"></div>
                             </div>
-                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 shadow flex justify-center font-bold">1</div>
+                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 flex justify-center font-bold">1</div>
                         </div>
                         <div className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto">
                             <h3 className="font-bold font-montserrat text-xs md:text-2xl text-color3 mt-5">November 18, 2023</h3>
@@ -46,7 +46,7 @@ const TimeLine = () => {
                             <div className="h-full w-6 flex items-center justify-center">
                                 <div className="h-full w-1 bg-color3 pointer-events-none"></div>
                             </div>
-                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 shadow flex justify-center font-bold">2</div>
+                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 flex justify-center font-bold">2</div>
                         </div>
                         <div className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto">
                             <h3 className="font-bold font-montserrat text-xs md:text-2xl mb-3 text-color3">Teams Registration begins</h3>
@@ -67,7 +67,7 @@ const TimeLine = () => {
                             <div className="h-full w-6 flex items-center justify-center">
                                 <div className="h-full w-1 bg-color3 pointer-events-none"></div>
                             </div>
-                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 shadow flex justify-center font-bold">3</div>
+                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 flex justify-center font-bold">3</div>
                         </div>
                         <div className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto">
                             <h3 className="font-bold font-montserrat text-xs md:text-2xl text-color3 mt-5">November 18, 2023</h3>
@@ -82,7 +82,7 @@ const TimeLine = () => {
                             <div className="h-full w-6 flex items-center justify-center">
                                 <div className="h-full w-1 bg-color3 pointer-events-none"></div>
                             </div>
-                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 shadow flex justify-center font-bold">4</div>
+                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 flex justify-center font-bold">4</div>
                         </div>
                         <div className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto">
                             <h3 className="font-bold font-montserrat text-xs md:text-2xl mb-3 text-color3">Announcement of the accepted teams and ideas</h3>
@@ -103,7 +103,7 @@ const TimeLine = () => {
                             <div className="h-full w-6 flex items-center justify-center">
                                 <div className="h-full w-1 bg-color3 pointer-events-none"></div>
                             </div>
-                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 shadow flex justify-center font-bold">5</div>
+                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 flex justify-center font-bold">5</div>
                         </div>
                         <div className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto">
                             <h3 className="font-bold font-montserrat text-xs md:text-2xl text-color3 mt-5">November 18, 2023</h3>
@@ -118,7 +118,7 @@ const TimeLine = () => {
                             <div className="h-full w-6 flex items-center justify-center">
                                 <div className="h-full w-1 bg-color3 pointer-events-none"></div>
                             </div>
-                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 shadow flex justify-center font-bold">6</div>
+                            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 flex justify-center font-bold">6</div>
                         </div>
                         <div className="col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto">
                             <h3 className="font-bold font-montserrat text-xs md:text-2xl mb-3 text-color3">Demo Day</h3>
@@ -141,7 +141,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-color3 text-xs'>1</TimelineIcon>
+                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>1</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -157,7 +157,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-color3 text-xs'>2</TimelineIcon>
+                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>2</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -173,7 +173,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-color3 text-xs'>3</TimelineIcon>
+                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>3</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -189,7 +189,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-color3 text-xs'>4</TimelineIcon>
+                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>4</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -204,7 +204,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-color3 text-xs'>5</TimelineIcon>
+                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>5</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -219,7 +219,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-color3 text-xs'>6</TimelineIcon>
+                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>6</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
