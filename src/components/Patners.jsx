@@ -13,7 +13,7 @@ const Patners = () => {
             <h3 className='font-clash text-xl md:text-3xl font-bold text-center'>Partners and Sponsors</h3>
             <p className='hidden md:block md:text-sm font-normal text-center font-montserrat mt-[16px] lg:leading-loose lg:pe-12'>Getlinked Hackathon 1.0 is honored to have the following major <br /> companies as its partners and sponsors </p>
             <div className='flex justify-center'>
-                <div className='w-[80%] border border-color3 mt-10'>
+                <div className='w-[80%] rounded-sm border border-color3 mt-10'>
                     <div className='grid grid-cols-3 gap-1 md:gap-2 p-5 md:p-28'>
                         <div className='flex justify-center items-center border-r border-b border-color3 p-3 md:p-5 relative'>
                             <div className='w-[31px] md:w-[120px]'>

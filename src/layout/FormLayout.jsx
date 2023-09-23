@@ -36,7 +36,7 @@ export default function FormLayout(props) {
   return (
     <>
     {/* NAVBAR */}
-    <Disclosure as="nav" className="bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-color2 from-0 via-color1 via-30 to-color1 to-40 text-white sticky top-0 z-10 py-5 pt-5 pb-5 md:pb-1 font-inter md:font-montserrat border-b border-navline">
+    <Disclosure as="nav" className="bg-color1 text-white sticky top-0 z-10 py-5 pt-5 pb-5 md:pb-1 font-inter md:font-montserrat border-b border-navline">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-5 lg:mx-20">
@@ -100,7 +100,7 @@ export default function FormLayout(props) {
                 </NavLink>
               ))}
               <div className='pl-2'>
-                <Button children='Contact Us' />
+                <Button children='Register' />
               </div>
             </div>
           </Disclosure.Panel>

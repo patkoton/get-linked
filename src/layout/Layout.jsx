@@ -117,7 +117,7 @@ export default function Layout(props) {
                 </NavLink>
               ))}
               <div className='pl-2'>
-                <Button children='Contact Us' />
+                <Button children='Register' />
               </div>
             </div>
           </Disclosure.Panel>
@@ -181,7 +181,7 @@ export default function Layout(props) {
           </div> 
           <div className='flex gap-1 md:gap-4 mt-4'>
               <p className=''><FaLocationDot /></p>
-              <p>27,Alara Street <br /> Yaba 100012 <br /> Lagos State</p>
+              <p>27, Alara Street <br /> Yaba 100012 <br /> Lagos State</p>
           </div> 
         </div>
       </div>

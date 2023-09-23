@@ -19,6 +19,7 @@ module.exports = withMT({
         'gradImg': "url('/src/assets/images/Purple-Lens-Flare-PNG.png')",
         'heroImg': "url('/src/assets/images/man-wearing-smart-glasses-touching-virtual-screen 1.png')",
         'policyImg': "url('/src/assets/images/Vector.png')",
+        'regImg': "url('/src/assets/images/3d-graphic-designer-showing-thumbs-up-png 1.png')",
       },
       gradientColorStopPositions: {
         10: '10%',
@@ -50,6 +51,9 @@ module.exports = withMT({
       'color5': 'rgba(144, 58, 255, 0.12)',
       'color6': 'rgba(212, 52, 254, 0.12)',
       'color7': '#2DE100',
+      'color8': 'rgba(255, 255, 255, 0.03)',
+      'color9': 'rgba(0, 0, 0, 0.25)',
+      'color10': 'rgba(255, 255, 255, 0.25)',
       'navline': 'rgba(255, 255, 255, 0.18)',
     }
   },
