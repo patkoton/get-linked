@@ -10,6 +10,7 @@ import lady from '../assets/images/1f6b6-2640.png'
 import gent from '../assets/images/image_processing20200511-10310-13mnlsx.png'
 import success from '../assets/images/successfully-done-5108472-4288033 1.png'
 import successman from '../assets/images/successful-man-3025713-2526911 1.png'
+import { baseUrl } from '../shared';
 
 
 const Register = () => {
@@ -22,9 +23,10 @@ const Register = () => {
   const [message, setMessage] = useState("");
 
   let handleSubmit = async (e) => {
+    const url = baseUrl + 'hackathon/registration';
     e.preventDefault();
     try {
-      let res = await fetch("https://backend.getlinked.ai/hackathon/registration", {
+      let res = await fetch(url, {
         method: "POST",
         body: JSON.stringify({
           team_name: team_name,

@@ -6,6 +6,7 @@ import { FiFacebook } from 'react-icons/fi'
 import { FaXTwitter } from 'react-icons/fa6'
 import { FaLinkedinIn } from 'react-icons/fa'
 import axios from 'axios';
+import { baseUrl } from '../shared'
 
 const icon = [
     { icon: <AiOutlineInstagram />, href: 'https://www.instagram.com/' },
@@ -20,21 +21,28 @@ const Contact = () => {
     const [message, setMessage] = useState("");
 
 
-    let handleSubmit = async (e) => {
+    const handleSubmit = async (e) => {
+        const url = baseUrl + 'hackathon/contact-form';
         e.preventDefault();
         axios({
         method: "POST",
-        url:"https://backend.getlinked.ai/hackathon/hackathon/contact-form",
-        data:  this.state
+        url: url,
+        data: ''
         }).then((response)=>{
         if (response.data.status === 'success') {
             alert("Message Sent.");
-            this.resetForm()
+            resetForm();
         } else if (response.data.status === 'fail') {
             alert("Message failed to send.")
         }
         })
     };
+
+    const resetForm = () => {
+        setName('')
+        setEmail('') 
+        setMessage('')
+    }
 
   return (
     <FormLayout>
