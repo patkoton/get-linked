@@ -7,9 +7,9 @@ import Line from '../elements/Line'
 
 const Hero = () => {
   return (
-    <div className='bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-color2 via-color1 to-color1'>
+    <div className='bg-color1'>
       <div className='flex flex-col lg:flex-row items-center'>
-        <div className='flex-col lg:flex lg:w-1/2 relative md:pl-20'>
+        <div className='flex-col lg:flex lg:w-1/2 -mt-16 relative md:pl-20 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-color2 from-0 via-color1 via-30 to-color1 to-40'>
           <p className='lg:hidden text-white font-montserrat text-base font-bold italic pt-5'>Igniting a Revolution in HR Innovation</p>
           <div className='lg:hidden absolute top-10 right-3 w-[123px] h-[2px] bg-color4'></div>
           <div className='text-3xl md:text-6xl font-clash font-bold text-white lg:pt-20 flex flex-wrap mt-10 lg:mt-0'>

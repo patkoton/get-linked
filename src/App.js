@@ -4,6 +4,8 @@ import Lazy from './layout/Lazy';
 
 export default function App() {
   const Home = lazy(()=> import('./pages/Home'))
+  const Contact = lazy(()=> import('./pages/Contact'))
+  const Register = lazy(()=> import('./pages/Register'))
   const NotFound = lazy(()=> import('./components/NotFound'))
 
   
@@ -29,6 +31,8 @@ export default function App() {
     <Suspense fallback={<Lazy/>}>
       <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/register' element={<Register/>}/>
           <Route path='/404' element={<NotFound/>}/>
           <Route path='*' element={<NotFound/>}/>
       </Routes>

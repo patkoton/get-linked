@@ -6,6 +6,7 @@ import Line from '../elements/Line'
 const About = () => {
   return (
     <div className='bg-color1 text-white py-10'>
+        {/* About */}      
         <div className='flex flex-col lg:flex-row lg:items-center lg:px-20 lg:space-x-6'>
             <div className='flex flex-col lg:w-1/2'>
                 <div className='flex justify-center lg:block mb-12'>
@@ -21,7 +22,7 @@ const About = () => {
         </div>
         <Line />
 
-
+        {/* Rules and Regulations */}
         <div className='flex flex-col lg:flex-row-reverse lg:items-center lg:px-20 lg:space-x-6'>
             <div className='flex flex-col lg:w-1/2 relative'>
                 <div className='flex justify-center lg:block mb-5 z-10'>

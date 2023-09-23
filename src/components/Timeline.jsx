@@ -12,12 +12,13 @@ import Line from '../elements/Line'
 
 const TimeLine = () => {
   return (
-    <div className='bg-color1 text-white' id='timeline'>
+    <div className='bg-color1 text-white font-montserrat' id='timeline'>
         <div className='lg:px-20 py-10'>
             <h3 className='font-clash text-xl md:text-3xl font-bold text-center'>Timeline</h3>
             <p className='hidden md:block md:text-sm font-normal text-center font-montserrat mt-[16px] lg:leading-loose lg:pe-12'>Here is the breakdown of the time we anticipate <br /> using for the upcoming event.</p>
             <p className='text-xs md:hidden font-normal text-center font-montserrat mt-[16px] leading-normal lg:pe-12'>Here is the breakdown of the time we anticipate using for the upcoming event.</p>
 
+            {/* Medium Screens */}  
             <div className="hidden md:block container my-5">
                 <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
                     <div className="flex flex-col md:contents">
@@ -130,6 +131,7 @@ const TimeLine = () => {
                 </div>
             </div>
 
+            {/* Small Screens */}  
             <div className="md:hidden my-5 font-montserrat text-xs">
                 <Timeline>
                     <TimelineItem className='mb-6'>
@@ -141,7 +143,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>1</TimelineIcon>
+                            <TimelineIcon className='bg-color3 text-xs'>1</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -157,7 +159,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>2</TimelineIcon>
+                            <TimelineIcon className='bg-color3 text-xs'>2</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -173,7 +175,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>3</TimelineIcon>
+                            <TimelineIcon className='bg-color3 text-xs'>3</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -189,7 +191,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>4</TimelineIcon>
+                            <TimelineIcon className='bg-color3 text-xs'>4</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -204,7 +206,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>5</TimelineIcon>
+                            <TimelineIcon className='bg-color3 text-xs'>5</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>
@@ -219,7 +221,7 @@ const TimeLine = () => {
                             </Typography>
                         </TimelineBody>
                         <TimelineHeader className="-my-3">
-                            <TimelineIcon className='bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 text-xs'>6</TimelineIcon>
+                            <TimelineIcon className='bg-color3 text-xs'>6</TimelineIcon>
                             <Typography variant="small" color="blue-gray" className="font-bold text-xs text-color3">
                             November 18, 2023
                             </Typography>

@@ -7,7 +7,7 @@ import Line from '../elements/Line'
 
 const Prizes = () => {
   return (
-    <div className='bg-color1 text-white'>
+    <div className='bg-color1 text-white font-montserrat'>
         <div className='pt-10 pb-20'>
             <div className='flex flex-col lg:flex-row lg:items-center lg:px-20 lg:space-x-6'>
                 <div className='flex flex-col lg:w-1/2'>

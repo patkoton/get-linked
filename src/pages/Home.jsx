@@ -6,6 +6,8 @@ import Attributes from '../components/Attributes'
 import FAQs from '../components/FAQs'
 import TimeLine from '../components/Timeline'
 import Prizes from '../components/Prizes'
+import Patners from '../components/Patners'
+import Policy from '../components/Policy'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       <FAQs />
       <TimeLine />
       <Prizes />
+      <Patners />
+      <Policy />
     </Layout>
   )
 }
