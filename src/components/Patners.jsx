@@ -45,7 +45,7 @@ const Patners = () => {
 
                         <div className='flex justify-center items-center border-r border-color3 p-3 md:p-5 relative'>
                             <div className='w-[56px] md:w-[204px]'>
-                                <p className='font-typo font-normal text-center text-sm md:text-5xl'>Pay<span className='text-color3'>box</span></p>
+                                <p className='font-typo font-normal text-center text-sm lg:text-5xl'>Pay<span className='text-color3'>box</span></p>
                             </div>
                             <div className='absolute -top-2 -right-2 md:-top-4 md:-right-5 w-5 h-5 md:w-10 md:h-10 rounded-full bg-color1'></div>
                         </div>

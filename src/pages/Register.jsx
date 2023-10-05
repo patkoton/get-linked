@@ -1,15 +1,13 @@
 import React, { useState } from 'react'
 import FormLayout from '../layout/FormLayout'
 import user from '../assets/images/3d-graphic-designer-showing-thumbs-up-png 1.png'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import {
     Checkbox,
     Typography,
   } from "@material-tailwind/react";
 import lady from '../assets/images/1f6b6-2640.png'
 import gent from '../assets/images/image_processing20200511-10310-13mnlsx.png'
-import success from '../assets/images/successfully-done-5108472-4288033 1.png'
-import successman from '../assets/images/successful-man-3025713-2526911 1.png'
 import { baseUrl } from '../shared';
 
 
@@ -20,7 +18,8 @@ const Register = () => {
   const [project_topic, setProject] = useState("");
   const [category, setCategory] = useState("");
   const [group_size, setGroup] = useState("");
-  const [message, setMessage] = useState("");
+
+  const navigate = useNavigate();
 
   let handleSubmit = async (e) => {
     const url = baseUrl + 'hackathon/registration';
@@ -37,13 +36,19 @@ const Register = () => {
           group_size: group_size
         }),
       });
-      // let resJson = await res.json();
+      //let resJson = await res.json();
       if (res.status === 200) {
         setName("");
         setEmail("");
-        setMessage("User created successfully");
+        setPhone("");
+        setProject("");
+        setCategory("");
+        setGroup("");
+        console.log('SUCCESS!');
+        navigate('/success');
       } else {
-        setMessage("Some error occured");
+        console.log('FAILED...');
+        navigate('/failed');
       }
     } catch (err) {
       console.log(err);
@@ -196,25 +201,6 @@ const Register = () => {
                     </form>
                 </div>
             </div>
-
-            {message ?
-            <div className='flex justify-center items-center bg-transparent text-white'>
-                <div className='md:w-9/12 p-5 md:p-10 border border-color3 rounded-sm'>
-                    <div className='flex justify-center'>
-                        <div className='flex items-center'>
-                            <img src={success} alt="" />
-                            <img src={successman} alt="" />
-                        </div>
-                    </div>
-                    <p className='text-xl font-semibold'>Congratulations</p>
-                    <p className='text-xl font-semibold'>you have successfully Registered!</p>
-                    <p className='text-xs font normal'>Yes, it was easy and you did it!</p>
-                    <p className='text-xs font normal'>check your mail box for next step</p>
-                    <button href='/' className="cursor-pointer border-none rounded bg-gradient-to-r from-color4 from-30 via-color3 to-color2 to-70 outline-none transition-all py-3 px-6 md:px-10 font-montserrat font-normal text-sm md:text-base text-white w-full">
-                            Back
-                    </button>
-                </div>
-            </div> : null }
         </div>
     </FormLayout>
   )

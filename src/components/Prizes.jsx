@@ -21,7 +21,7 @@ const Prizes = () => {
                     <h3 className='font-clash text-xl md:text-3xl font-bold'>Prizes and <br /> <span className='text-color3'>Rewards</span></h3>
                     <p className='text-xs md:text-sm font-normal font-montserrat mt-[16px] leading-7 md:leading-loose lg:pe-12'>Highlights of the prizes or rewards for winners and for participants.</p>
                     <div className='flex flex-row space-x-2 md:space-x-4 mt-20 md:mt-44'>
-                        <div className='w-1/3 h-[150px] md:h-[250px] text-center font-montserrat bg-color6 border border-color3 rounded-lg'>
+                        <div className='w-1/3 h-[150px] md:h-[270px] text-center font-montserrat bg-color6 border border-color3 rounded-lg'>
                             <div className='flex justify-center'>
                                 <div className='px-4 -mt-9 md:-mt-20'>
                                     <img src={silver} alt="" />
@@ -31,7 +31,7 @@ const Prizes = () => {
                             <h5 className='text-xs md:text-2xl font-semibold'>Runner</h5>
                             <p className='text-sm md:text-3xl font-bold text-color3 mt-2'>N300,000</p>
                         </div>
-                        <div className='w-1/3 h-[160px] md:h-[270px] text-center font-montserrat bg-color5 border border-color2 rounded-lg'>
+                        <div className='w-1/3 h-[160px] md:h-[290px] text-center font-montserrat bg-color5 border border-color2 rounded-lg'>
                             <div className='flex justify-center'>
                                 <div className='-mt-14 md:-mt-24'>
                                     <img src={gold} alt="" className='' />
@@ -41,7 +41,7 @@ const Prizes = () => {
                             <h5 className='text-xs md:text-2xl font-semibold'>Runner</h5>
                             <p className='text-sm md:text-3xl font-bold text-color2 mt-5'>N400,000</p>
                         </div>
-                        <div className='w-1/3 h-[150px] md:h-[250px] text-center font-montserrat bg-color6 border border-color3 rounded-lg'>
+                        <div className='w-1/3 h-[150px] md:h-[270px] text-center font-montserrat bg-color6 border border-color3 rounded-lg'>
                             <div className='flex justify-center'>
                                 <div className='px-4 -mt-9 md:-mt-20'>
                                     <img src={bronze} alt="" />
